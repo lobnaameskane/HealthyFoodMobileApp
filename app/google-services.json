@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "771074771907",
+    "project_id": "foodcollection-24fdd",
+    "storage_bucket": "foodcollection-24fdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771074771907:android:1a2dd9e1755ed26edc8b76",
+        "android_client_info": {
+          "package_name": "com.example.foodcollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771074771907-di176bk2a7fr195thiousqkpdmtv1sg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNGIFTNQzW0ey2XuVF0IOkbi4c_rwLI0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771074771907-di176bk2a7fr195thiousqkpdmtv1sg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

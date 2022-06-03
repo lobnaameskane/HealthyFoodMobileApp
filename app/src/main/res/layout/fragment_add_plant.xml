@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_margin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:id="@+id/upload_button"
+            style="@style/TitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:padding="@dimen/default_margin"
+            android:text="@string/add_plant_page_upload_button"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pic1" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/add_plant_page_name_input"
+        style="@style/DefaultTextStyle"
+        android:paddingLeft="@dimen/item_margin"
+        android:layout_marginTop="@dimen/item_margin"/>
+
+    <EditText
+        android:id="@+id/description_input"
+        style="@style/DefaultTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/add_plant_page_description_input"
+        android:paddingLeft="@dimen/item_margin" />
+
+    <Spinner
+        android:id="@+id/grow_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:entries="@array/add_plant_page_water_spinner_input"
+        style="@style/DefaultTextStyle"
+        android:paddingLeft="@dimen/item_margin"
+        android:layout_marginTop="@dimen/item_margin"/>
+
+    <Spinner
+        android:id="@+id/water_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:entries="@array/add_plant_page_grow_spinner_input"
+        style="@style/DefaultTextStyle"
+        android:paddingLeft="@dimen/item_margin"
+        android:layout_marginTop="@dimen/item_margin"/>
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/default_margin"
+        android:background="@color/darkGray"
+        android:text="@string/add_plant_page_confirm_button"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</LinearLayout>

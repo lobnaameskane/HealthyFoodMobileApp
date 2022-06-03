@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_page"
+        android:title="@string/bottom_home_item"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/collection_page"
+        android:title="@string/bottom_collection_item"
+        android:icon="@drawable/ic_star"/>
+
+    <item
+        android:id="@+id/add_plant_page"
+        android:title="@string/bottom_add_plant_item"
+        android:icon="@drawable/ic_plus"/>
+</menu>

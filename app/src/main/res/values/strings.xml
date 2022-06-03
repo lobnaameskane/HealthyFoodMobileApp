@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Health Food</string>
+
+
+    <string name="bottom_home_item">Accueil</string>
+    <string name="bottom_collection_item">Favoris</string>
+    <string name="bottom_add_plant_item">Nouveau</string>
+    <!--Page d'accueil-->
+    <string name="home_page_title">A decouvrir</string>
+    <string name="home_page_last_plant_section">Plats</string>
+
+    <!--Page de Collection-->
+    <string name="collection_page_title">Mes Favoris</string>
+
+    <!--Page d'ajout de plantes-->
+    <string name="add_plant_page_title">Mes Favoris</string>
+    <string name="add_plant_page_upload_button">Ajouter Image</string>
+    <string name="add_plant_page_name_input">@string/item_plant_name</string>
+    <string name="add_plant_page_description_input">@string/item_plant_description</string>
+
+
+    <string-array name="add_plant_page_grow_spinner_input">
+        <item>temps:  Moins de 30min</item>
+        <item>temps : Entre 30min et 1h</item>
+        <item>temps : Plus  1h</item>
+    </string-array>
+
+    <string-array name="add_plant_page_water_spinner_input">
+        <item>Petit Déjeuner</item>
+        <item>Déjeuner</item>
+        <item>Gouter</item>
+        <item>Dîner</item>
+    </string-array>
+
+    <string name="add_plant_page_confirm_button">Confirmer</string>
+
+    <!--Fenetre popup de details-->
+    <string name="popup_plant_name"> Nom du Plat</string>
+    <string name="popup_plant_description_title">Recette</string>
+    <string name="popup_plant_description_subtitle">Petite Description</string>
+    <string name="popup_plant_water_title">Temps de preparation</string>
+    <string name="popup_plant_water_subtitle">Faible</string>
+    <string name="popup_plant_grow_title">Prendre comme</string>
+    <string name="popup_plant_grow_subtitle">lente</string>
+
+
+    <!--Plante Customise-->
+    <string name="item_plant_name"> Nom du plat</string>
+    <string name="item_plant_description"> Recette du plat</string>
+
+
+
+
+</resources>
